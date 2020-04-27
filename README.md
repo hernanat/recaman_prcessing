@@ -16,8 +16,9 @@ You can draw the points of the sequence with the arcs:
 drawSequenceArcs(points = True)
 ```
 
-![](https://github.com/hernanat/recaman_prcessing/blob/master/examples/50_terms_normal.png | width=950)
-![](https://github.com/hernanat/recaman_prcessing/blob/master/examples/500_terms_normal.png | width=950)
+![50 normal](https://github.com/hernanat/recaman_prcessing/blob/master/examples/50_terms_normal.png)
+
+![500 normal](https://github.com/hernanat/recaman_prcessing/blob/master/examples/500_terms_normal.png)
 
 Instead of arcs, you can draw circles whose diameters are
   equal to the distance `|a_n - a_{n-1}|`.
@@ -26,6 +27,7 @@ Instead of arcs, you can draw circles whose diameters are
 drawSequenceArcs(mode = 'x')
 ```
 
-![](https://github.com/hernanat/recaman_prcessing/blob/master/examples/50_terms_circles.png | width=950)
-![](https://github.com/hernanat/recaman_prcessing/blob/master/examples/500_terms_circles.png | width=950)
+![50 circles](https://github.com/hernanat/recaman_prcessing/blob/master/examples/50_terms_circles.png)
+
+![500 circles](https://github.com/hernanat/recaman_prcessing/blob/master/examples/500_terms_circles.png)
 

@@ -13,7 +13,13 @@ drawNumberLine(tickers = True)
 You can draw the points of the sequence with the arcs:
 
 ```python
-drawSequenceArcs(points = True)
+drawSequenceArcs(sequence, points = True)
+```
+
+Here are some examples without tickers and points in arc (normal) mode:
+
+```python
+drawSequenceArcs(sequence)
 ```
 
 ![50 normal](https://github.com/hernanat/recaman_prcessing/blob/master/examples/50_terms_normal.png)
@@ -24,7 +30,7 @@ Instead of arcs, you can draw circles whose diameters are
   equal to the distance `|a_n - a_{n-1}|`.
 
 ```python
-drawSequenceArcs(mode = 'x')
+drawSequenceArcs(sequence, mode = 'x')
 ```
 
 ![50 circles](https://github.com/hernanat/recaman_prcessing/blob/master/examples/50_terms_circles.png)
